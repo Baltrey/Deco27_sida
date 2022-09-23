@@ -8,10 +8,10 @@ header {
 }
 
 a {
-    text-align: center;
-    text-align-last: center;
     color: lightgray;
     background-color: #363737;
+    font-size: large;
+    text-decoration: none;
 }
 
 body {
@@ -23,18 +23,34 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: lightgrey;
+    text-align: center;
+}
+
+musik {
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    justify-content: space-around;
+}
+
+iframe {
+    place-self: center;
+    margin: auto;
+}
+
 main {
     background-color: #363737;
     border-radius: 15px;
     width: 80%;
     margin: auto;
-    height: 60%;
+    height: 80%;
 }
 
 main p {
     font-size: 21px;
     color: lightgrey;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    text-align: center;
+    text-align: justify;
 }
