@@ -17,9 +17,20 @@ body {
     background-image: url("DECO27_Salamander.png");
 }
 
-h3 {
-    background-color: #363737;
+h1 {
     color: lightgrey;
-    width: 10% 80% 10%;
+    text-align: center;
+}
+
+main {
+    background-color: #363737;
+    border-radius: 15px;
+    width: 80%;
+    height: 60%;
+}
+
+h3 {
+    color: lightgrey;
+    width: 80%;
     text-align: center;
 }
