@@ -26,6 +26,7 @@ h1 {
 h2 {
     color: lightgrey;
     text-align: center;
+    font-size: 35px;
 }
 
 musik {
@@ -47,10 +48,24 @@ main {
     height: 80%;
 }
 
+section {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+
 main p {
     font-size: 21px;
     color: lightgrey;
     width: 90%;
-    margin: auto;
+    margin-left: 10%;
     text-align: justify;
+    justify-self: auto;
+    margin-right: 5%;
+}
+
+img {
+    border-radius: 25px;
+    margin: auto;
+    height: 550px;
+    margin-bottom: 10%;
 }
